@@ -1,27 +1,4 @@
-/*Selector de clase*/
-
-.cabecera {
-    color: red;
-    font-size: 66px;
-}
-
-
-/*Selector de id*/
-
-#cabecera2 {
-    color: green;
-    font-size: 66px;
-}
-
-
-/*Selector de etiqueta*/
-
-span {
-    color: orange;
-    font-size: 66px;
-    font-weight: bold;
-}
-
-* {
-    font-size: 200px;
+.contenedor {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }
